@@ -11,7 +11,7 @@ All the files that have been altered for this mod are included in this repositor
 
 # Install
 
-Reference Install.md to see instructions.
+Reference Install_mod.md to see instructions.
 
 # Update - 3rd October 2023
 
