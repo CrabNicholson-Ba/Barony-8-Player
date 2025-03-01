@@ -7,7 +7,7 @@ And let me know if anything goes wrong
 
 # File changes
 
-All the files that have been altered for this mod are included in this repository.
+All the files that have been altered for this mod are included in this repository. They are: Gameui.cpp, items.cpp, main.hpp, Config.hpp, and Barony.vcxproj
 
 # Install
 
