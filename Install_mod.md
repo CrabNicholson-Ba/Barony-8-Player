@@ -4,9 +4,9 @@
 
 2: Copy your Barony game from your Steam files and place the game in a new folder.
 
-3: Place the folders and the Barony_MP.exe from the .rar in that folder.
+3: Place the folders and the Barony_MP.exe from the .rar in that folder when prompted to replace click yes.
 
-4: Launch click "Play Game" and Online or Lan depending on what you're doing
+4: Launch the Barony_MP.exe click "Play Game" and Online or Lan depending on what you're doing
 
 5: Make sure there are arrows on the character sheet lineup.
 
