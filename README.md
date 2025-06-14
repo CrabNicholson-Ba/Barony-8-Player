@@ -1,9 +1,10 @@
-# Barony 8 player 1.0
+# Barony 8 player 1.1
 
 This is the Barony 8 player mod that I have made for the 4.3.1 update.
 It took quite a lot of work but the previous mod made by Wr4Th-0f-D0g and the Barony Discord helped quite a bit.
 So enjoy the mod!
 And let me know if anything goes wrong
+Important note: The door bugs and save file bugs are still being investigated however I wanted to at least get the version updated mod out there so please bear with me until I can figure out whats really going on.
 
 # File changes
 
