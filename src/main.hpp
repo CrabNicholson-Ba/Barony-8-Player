@@ -657,7 +657,7 @@ typedef struct door_t
 #ifdef BARONY_SUPER_MULTIPLAYER
 #define MAXPLAYERS 8
 #else
-#define MAXPLAYERS 4
+#define MAXPLAYERS 8
 #endif
 
 // shaking/bobbing, that sort of thing
