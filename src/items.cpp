@@ -960,6 +960,18 @@ Sint32 itemModel(const Item* const item, bool shortModel)
 			case 3:
 				playerIndex = 4;
 				break;
+			case 4: 
+				playerIndex = 5;
+				break;
+			case 5: 
+				playerIndex = 6;
+				break;
+			case 6: 
+				playerIndex = 7;
+				break;
+			case 7: 
+				playerIndex = 8;
+				break;
 			default:
 				break;
 			}
