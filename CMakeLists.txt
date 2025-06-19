@@ -17,6 +17,12 @@ if (NOT DEFINED STEAMWORKS_ENABLED)
 	endif()
 endif()
 
+if (DEFINED ENV{BARONY_SUPER_MULTIPLAYER})
+	set (BARONY_SUPER_MULTIPLAYER $ENV{BARONY_SUPER_MULTIPLAYER})
+endif()
+
+option(BARONY_SUPER_MULTIPLAYER "Enable 8 Player Multiplayer" OFF)
+
 if (DEFINED ENV{OPTIMIZATION_LEVEL})
 	set (OPTIMIZATION_LEVEL $ENV{OPTIMIZATION_LEVEL})
 else()
@@ -192,6 +198,12 @@ if (STEAMWORKS_ENABLED)
 	message("Building with steamworks")
 else()
 	message("Building without steamworks")
+endif()
+
+if (BARONY_SUPER_MULTIPLAYER)
+	message("Building with Barony Super Multiplayer")
+else()
+	message("Building without Barony Super Multiplayer")
 endif()
 
 if (EOS_ENABLED)
