@@ -2808,11 +2808,10 @@ int loadGameOld(int player, int saveIndex)
 	    if (mul == SINGLE) {
 	        players_connected = 1;
 	    } else {
-	        players_connected =
-	            (1 << 0) |
-	            (1 << 1) |
-	            (1 << 2) |
-	            (1 << 3);
+	        players_connected = players_connected = 0;
+            for (int i = 0; i < MAXPLAYERS; ++i) {
+                players_connected |= (1 << i);
+            }
 	    }
 	}
 	switch (mul) {
