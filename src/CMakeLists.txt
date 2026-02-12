@@ -115,6 +115,12 @@ list(APPEND GAME_SOURCES
 	"${CMAKE_CURRENT_SOURCE_DIR}/monster_duck.cpp"
 )
 
+if (BARONY_SMOKE_TESTS)
+	list(APPEND GAME_SOURCES
+		"${CMAKE_CURRENT_SOURCE_DIR}/smoke/SmokeTestHooks.cpp"
+	)
+endif()
+
 list(APPEND EDITOR_SOURCES
 	"${CMAKE_CURRENT_SOURCE_DIR}/main.cpp"
 	"${CMAKE_CURRENT_SOURCE_DIR}/init.cpp"

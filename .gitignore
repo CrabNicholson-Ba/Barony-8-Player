@@ -1,5 +1,8 @@
 **/books/*
 build/*
+build-*/
+tests/smoke/artifacts/
+docker/
 **/data/*
 **/fonts/*
 **/images/*
